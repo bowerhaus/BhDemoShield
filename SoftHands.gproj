@@ -1,0 +1,21 @@
+<project>
+ <properties autorotation="0" fps="60" scaleMode="2" iosDevice="0" packageName="com.yourdomain.yourapp" logicalHeight="480" logicalWidth="320" retinaDisplay="0" assetsOnly="0" orientation="0" architecture="0">
+  <imageScales/>
+ </properties>
+ <file source="SoftHands.lua"/>
+ <folder name="Images">
+  <file source="Images/HandFingerDn.png"/>
+  <file source="Images/HandFingerUp.png"/>
+  <file source="Images/Art/Fairy3.png"/>
+  <file source="Images/Art/Fairy2.png"/>
+  <file source="Images/Art/Fairy1.png"/>
+  <file source="Images/Art/Bg.png"/>
+ </folder>
+ <folder name="Library">
+  <file source="../BhHelpers/BhHelpers.lua"/>
+  <file source="../../Misc/easing.lua"/>
+  <file source="../../Misc/gtween.lua"/>
+ </folder>
+ <file source="BhDemoShield.lua"/>
+ <file source="init.lua"/>
+</project>
